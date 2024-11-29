@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
 header {
   width: 20%;
   background-color: lightgrey;
@@ -46,6 +51,7 @@ h1 {
 
 .top img{
   width: 100%;
+
 }
 
 .portfolio {
@@ -86,7 +92,54 @@ a {
 
 }
 
+.hp  a{ 
+  transition: all .3s ease-in-out;
+transform: translateY(0);
+box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
+.hp   a:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+}
+
+.hp1  a{ 
+  transition: all .3s ease-in-out;
+transform: translateY(0);
+box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
+.hp1   a:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+}
+
+.wordpress  a{ 
+  transition: all .3s ease-in-out;
+transform: translateY(0);
+box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
+.wordpress   a:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+}
+
+.photoshop  a{ 
+  transition: all .3s ease-in-out;
+transform: translateY(0);
+box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
+.photoshop   a:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 10px 10px rgba(0,0,0,.2);
+}
+
+
 /*works*/
+
+
 
 .works h1 {
   color: darkblue;
@@ -111,6 +164,7 @@ a {
   justify-content: center; 
 flex-wrap: wrap;
 }
+
 
 .works_img p {
   color: darkblue;
@@ -153,6 +207,15 @@ flex-wrap: wrap;
   
 }
 
+.works1_img img{
+  transition: all 0.3s ease-in-out;
+  filter: grayscale(1);
+}
+
+.works1_img img:hover{
+  filter: grayscale(0);
+}
+
 .works1_text h2{
   color: #efefef;
   font-weight: bold;
@@ -170,10 +233,38 @@ flex-wrap: wrap;
 
 }
 
+.works2_img img {
+  height:4200px;
+  width: 900px;
+  margin-left: 60px;
+  transition: all 0.3s ease-in-out;
+  filter: grayscale(1);
+}
+.works2_img img:hover{
+  filter: grayscale(0);
+}
+
+.works2_text h2{
+  color: darkblue;
+  text-align: center;
+}
+ 
+.works2_text p{
+  color: darkblue;
+  text-align: center;
+  font-weight: bold;
+}
+
 .works3 img{
 height: 400px;
 width: 300px;
+transition: all 0.3s ease-in-out;
+filter: grayscale(1);
 
+}
+
+.works3 img:hover{
+  filter: grayscale(0);
 }
 
 .works3{
@@ -199,8 +290,28 @@ width: 300px;
 }
 
 
+.works4_img img {
+  height:4900px;
+  width: 900px;
+  margin-left: 60px;
+  transition: all 0.3s ease-in-out;
+  filter: grayscale(1);
+}
 
+.works4_img img:hover{
+  filter: grayscale(0);
+}
+
+.works4_text h2{
+  color: darkblue;
+  text-align: center;
+}
  
+.works4_text p{
+  color: darkblue;
+  text-align: center;
+  font-weight: bold;
+}
 
 /*profile*/
 
@@ -286,7 +397,11 @@ width: 300px;
 
 /*plofile*/
 
-
+.timeline1 img{
+width: 1000px;
+height: 700px;
+;
+}
 
 .cp_block {
   margin: 3em auto;
@@ -302,8 +417,10 @@ width: 300px;
   list-style-type: none;
   color: darkblue;
   font-weight: bold;
+
 }
 
+/*
 .timeline1:before {
   position: absolute;
   left: 50%;
@@ -312,10 +429,12 @@ width: 300px;
   display: block;
   width: 6px;
   height: 100%;
-  margin-left: -3px;
-
+ 
+background-color: darkblue;
   z-index: 5;
 }
+
+*/
 
 .timeline1 li {
   padding: 1em 0;
@@ -372,7 +491,7 @@ width: 300px;
 .timeline1 li:nth-child(even) .timeline_item .flag_cont:before {
   position: absolute;
   top: 4px;
-  right: -44px;
+  right: -38px;
   content: '';
   display: block;
   width: 12px;
@@ -387,7 +506,7 @@ width: 300px;
 }
 
 .timeline1 li:nth-child(even) .timeline_item .flag_cont:before {
-  left: -44px;
+  left: -303px;
 }
 
 .timeline1 li:nth-child(odd) .timeline_item .flag_cont:after,
@@ -502,6 +621,7 @@ width: 300px;
   background-color: darkblue;
   border-radius: 10px;
   width: 200px;
+ 
   text-align: center;
 }
 
@@ -517,6 +637,12 @@ h4::after {
 
 .strengths_more{
   padding-left: 20px;
+  
+}
+
+.strengths_more_img img {
+  width: 1000px;
+  height: 800px;
 }
 
 .strengths_more1{
@@ -530,8 +656,8 @@ h4::after {
 }
 
 .strengths_more img{
-  width: 200px;
-  height: 350px;
+  width: 800px;
+  height: 650px;
   margin-left:30px ;
 }
 
