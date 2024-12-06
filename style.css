@@ -853,7 +853,10 @@ background-color: darkblue;
   }
   
   .top img{
-    width: 100%;
+    
+    max-width: 100%; /* 画像が画面幅を超えない */
+      height: auto;   /* 縦横比を維持 */
+      display: block; /* 余計な余白を消す */
   
   }
   
@@ -888,7 +891,7 @@ background-color: darkblue;
     position: absolute;
     color: darkblue;
     font-size: 30px;
-    top: 300px;
+    top: 130px;
     margin-top: 0;
     writing-mode: vertical-rl;
     right: 0;
@@ -953,10 +956,11 @@ background-color: darkblue;
   
   .works {
   
-    position: relative;
-   
+    position: static;
+    margin-bottom: 50px;
     background-size: auto 100%;
     background-position: center;
+    
    
    
   }
@@ -978,7 +982,7 @@ background-color: darkblue;
   .hp img {
     height: 270px;
     width: 200px;
-    margin: -30px 0 0 0;
+    margin:  0;
     border-radius: 10px;
   
   }
@@ -995,14 +999,14 @@ background-color: darkblue;
   .wordpress img {
     height: 270px;
     width: 200px;
-    margin: -30px 0 0 0;
+    margin:0;
     border-radius: 10px;
   }
   
   .photoshop img {
     height: 270px;
     width: 200px;
-    margin: -30px 0 0 0;
+    margin: 0;
     border-radius: 10px;
   }
   
@@ -1124,12 +1128,12 @@ background-color: darkblue;
   
   .profile {
   
-    position: relative;
+ 
    
     background-size: auto 100%;
     background-position: center;
-   
-    padding: 20px;
+  
+  
     
   
   
@@ -1137,9 +1141,9 @@ background-color: darkblue;
   }
   
   .profile_text_img {
-    display: flex;
+    display: block;
     justify-content: space-around;
-    margin-top: -70px;
+   
   }
   
   .profile img {
@@ -1207,7 +1211,7 @@ background-color: darkblue;
     color: darkblue;
     font-weight: bold;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 40px;
   
   
   }
