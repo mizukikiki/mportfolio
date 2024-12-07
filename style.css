@@ -213,12 +213,10 @@ flex-wrap: wrap;
 
 .works1_img img{
   transition: all 0.3s ease-in-out;
-  filter: grayscale(1);
+
 }
 
-.works1_img img:hover{
-  filter: grayscale(0);
-}
+
 
 .works1_text h2{
   color: #efefef;
@@ -241,11 +239,7 @@ flex-wrap: wrap;
   height:4200px;
   width: 900px;
   margin-left: 60px;
-  transition: all 0.3s ease-in-out;
-  filter: grayscale(1);
-}
-.works2_img img:hover{
-  filter: grayscale(0);
+ 
 }
 
 .works2_text h2{
@@ -262,14 +256,11 @@ flex-wrap: wrap;
 .works3 img{
 height: 400px;
 width: 300px;
-transition: all 0.3s ease-in-out;
-filter: grayscale(1);
+
 
 }
 
-.works3 img:hover{
-  filter: grayscale(0);
-}
+
 
 .works3{
   margin:  auto;
@@ -298,13 +289,11 @@ filter: grayscale(1);
   height:4900px;
   width: 900px;
   margin-left: 60px;
-  transition: all 0.3s ease-in-out;
-  filter: grayscale(1);
+ 
 }
 
-.works4_img img:hover{
-  filter: grayscale(0);
-}
+
+
 
 .works4_text h2{
   color: darkblue;
@@ -434,168 +423,7 @@ height: 700px;
 
 }
 
-/*
-.timeline1:before {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  content: '';
-  display: block;
-  width: 6px;
-  height: 100%;
- 
-background-color: darkblue;
-  z-index: 5;
-}
 
-*/
-
-.timeline1 li {
-  padding: 1em 0;
-}
-
-.timeline1 li:after {
-  content: '';
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-
-}
-
-.timeline1 li :nth-child(odd).timeline_item {
-  position: relative;
-  width: calc(50% - 29px);
-  float: left;
-  text-align: right;
-}
-
-.timeline1 li:nth(even) .timeline_item {
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.timeline1 li:nth-child(even) .timeline_item {
-  position: relative;
-  width: calc(50% - 29px);
-  float: right;
-}
-
-.timeline1 li .timeline_item .flag_cont {
-  position: relative;
-  display: inline;
-  background-color: darkblue;
-  color: #ffffff;
-  padding: 6px 10px;
-  border-radius: 5px;
-  font-weight: bold;
-  text-align: left;
-}
-
-.timeline1 li:nth-child(odd) .timeline_item .flag {
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
-}
-
-.timeline1 li:nth-child(even) .timeline_item .flag {
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
-}
-
-.timeline1 li:nth-child(odd) .timeline_item .flag_cont:before,
-.timeline1 li:nth-child(even) .timeline_item .flag_cont:before {
-  position: absolute;
-  top: 4px;
-  right: -38px;
-  content: '';
-  display: block;
-  width: 12px;
-  height: 12px;
-  margin-top: -10px;
-  padding: 4px;
-  background: darkblue;
-  border-radius: 50%;
-  border: 6px solid color blue;
-  z-index: 10;
-
-}
-
-.timeline1 li:nth-child(even) .timeline_item .flag_cont:before {
-  left: -303px;
-}
-
-.timeline1 li:nth-child(odd) .timeline_item .flag_cont:after,
-.timeline1 li:nth-child(even) .timeline_item .flag_cont:after {
-  position: absolute;
-  top: 10px;
-  right: -38px;
-  content: '';
-  display: block;
-  width: 16px;
-  height: 16px;
-  margin-top: -10px;
-  border-radius: 10px;
-  border: 2px solid color darkblue;
-  z-index: 10;
-
-
-}
-
-.timeline1 li:nth-child(even) .timeline_item .flag_cont:after {
-  left: -38px;
-}
-
-.timeline1 li:nth-child(odd) .timeline_item .flag:after {
-  content: '';
-  position: absolute;
-  left: 100%;
-  top: 50%;
-  height: 0;
-  width: 0;
-  margin-top: -6px;
-  border: solid transparent;
-  border-left-color: rgba(26, 35, 126, 1);
-  border-width: 6px;
-  ;
-}
-
-.timeline1 li:nth-child(even) .timeline_item .flag:after {
-  content: '';
-  position: absolute;
-  right: 100%;
-  top: 50%;
-  height: 0;
-  width: 0;
-  margin-top: -6px;
-  border: solid transparent;
-  border-right-color: rgba(26, 35, 126, 1);
-  border-width: 6px;
-  ;
-}
-
-.cp_timeline1 li .timeline_item .time {
-  display: block;
-  margin-top: 1em;
-  padding: 4px 6px;
-  font-size: 0.6em;
-  line-height: 1em;
-  color: rgba(255, 87, 34, 1);
-  text-align: right;
-}
-
-.timeline01 li:nth-child(even) .timeline_item .time {
-  text-align: left;
-}
-
-.timeline01 li .timeline_item .desc {
-  margin: 1em 0.75em 0 0;
-  font-size: 0.7em;
-  line-height: 1.5em;
-  margin: 1em 1em 0 1em;
-  padding: 1em;
-  background: rgba(178, 235, 242, 0.7);
-  border-radius: 6px;
-
-}
 
 .desc {
   padding: 10px;
@@ -842,6 +670,10 @@ background-color: darkblue;
    display: none;
   
   }
+
+  .header{
+    display:none;
+  }
   
   .header_nav {
     display: none;
@@ -1012,20 +844,15 @@ background-color: darkblue;
   
   
   .works1_img img{
-    width: 280px;
-    height: 400px;
+    width: 80%;
+    max-width: 300px;
+    height: auto;
     margin: 50px 20px 20px 20px;
     
   }
   
-  .works1_img img{
-    transition: all 0.3s ease-in-out;
-    filter: grayscale(1);
-  }
-  
-  .works1_img img:hover{
-    filter: grayscale(0);
-  }
+
+ 
   
   .works1_text h2{
     color: #efefef;
@@ -1045,15 +872,13 @@ background-color: darkblue;
   }
   
   .works2_img img {
-    height:4200px;
-    width: 900px;
+    width: 80%;
+    max-width: 300px;
     margin-left: 60px;
-    transition: all 0.3s ease-in-out;
-    filter: grayscale(1);
+    height: auto;
+ 
   }
-  .works2_img img:hover{
-    filter: grayscale(0);
-  }
+ 
   
   .works2_text h2{
     color: darkblue;
@@ -1102,16 +927,14 @@ background-color: darkblue;
   
   
   .works4_img img {
-    height:4900px;
-    width: 900px;
-    margin-left: 60px;
-    transition: all 0.3s ease-in-out;
-    filter: grayscale(1);
+    width: 80%;
+    max-width: 300px;
+    
+    height: auto;
+   
   }
   
-  .works4_img img:hover{
-    filter: grayscale(0);
-  }
+  
   
   .works4_text h2{
     color: darkblue;
@@ -1234,8 +1057,9 @@ background-color: darkblue;
   /*plofile*/
   
   .timeline1 img{
-  width: 1000px;
-  height: 700px;
+    width: 80%; /* 幅を80%に変更 */
+    max-width: 300px; /* 最大幅を300pxに */
+    height: auto;
   ;
   }
   
@@ -1305,8 +1129,9 @@ background-color: darkblue;
   }
   
   .strengths_more_img img {
-    width: 1000px;
-    height: 800px;
+    width: 80%; /* 幅を80%に変更 */
+    max-width: 300px; /* 最大幅を300pxに */
+    height: auto;
   }
   
   .strengths_more1{
@@ -1319,12 +1144,7 @@ background-color: darkblue;
     padding-left: 20px;
   }
   
-  .strengths_more img{
-    width: 800px;
-    height: 650px;
-    margin-left:30px ;
-  }
-  
+
   .strengths_more1 img{
     width: 200px;
     height: 320px;
