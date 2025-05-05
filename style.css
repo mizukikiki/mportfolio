@@ -1189,8 +1189,8 @@ height: 700px;
   /*plofile*/
   
   .timeline1 img{
-    width: 80%; /* 幅を80%に変更 */
-    max-width: 300px; /* 最大幅を300pxに */
+    width:350px; /* 幅を80%に変更 */
+    
     height: auto;
   ;
   }
@@ -1220,6 +1220,10 @@ height: 700px;
     text-align: left;
   }
   
+  .strengths h1{
+    font-size: 30px;
+  }
+
   .strengths h2 {
     color: darkblue;
     text-align: center;
@@ -1261,8 +1265,7 @@ height: 700px;
   }
   
   .strengths_more_img img {
-    width: 80%; /* 幅を80%に変更 */
-    max-width: 300px; /* 最大幅を300pxに */
+    width: 350px;
     height: auto;
   }
   
